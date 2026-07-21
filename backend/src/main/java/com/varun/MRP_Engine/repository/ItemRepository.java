@@ -1,0 +1,14 @@
+package com.varun.MRP_Engine.repository;
+
+import com.varun.MRP_Engine.enity.Item;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+import java.util.List;
+import java.util.Optional;
+
+@Repository
+public interface ItemRepository extends JpaRepository<Item, Long> {
+    Optional<Item> findByName(String name);
+    List<Item> findByType(Item.ItemType type);
+    boolean existsByName(String name);
+}
