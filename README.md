@@ -286,7 +286,7 @@ Production Order: 500 Bicycles
 
 ## 👨‍💻 Author
 
-Built with ❤️ as part of an Enterprise Manufacturing Internship Project.
+Built with ❤️ as part of an Enterprise Manufacturing Project.
 
 > *"Automate production planning. Eliminate stockouts. Optimize procurement.
 Copyright © 2026 Varun Kumar. All rights reserved."*
